@@ -27,18 +27,29 @@ body {
   text-align: center;
 }
 
+a {
+  color: inherit; /* inherent from parent */
+  text-decoration: none; /* no underline */
+  transition: 0.2s;
+}
+
+a:hover {
+  color:  #1A67F8;
+}
+
 .container {
   margin: auto;
   width: 50%;
   border: 1px solid grey;
   box-shadow: 2px 2px 3px grey;
   padding: 10px;
+  border-radius: 15px;
   /* text-align: center; */
 }
 
 .list-inline {
   display: inline-block;
-  font-size: 18px;
+  font-size: 24px;
   padding: 8px;
 }
 
